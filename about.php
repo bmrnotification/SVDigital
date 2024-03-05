@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Bingo | Responsive Multipurpose Parallax HTML5 Template</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="One page parallax responsive HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="body">
+
+  <!--
+  Start Preloader
+  ==================================== -->
+  <!-- <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div> -->
+  <!--
+  End Preloader
+  ==================================== -->
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top">
+  <div class="container">
+    <!-- main nav -->
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <!-- logo -->
+      <a class="navbar-brand logo" href="index.php">
+        <img loading="lazy" class="logo-default" src="images/logo-sv-digital.png" alt="logo" />
+        <img loading="lazy" class="logo-white" src="images/logo-sv-digital.png" alt="logo" />
+      </a>
+      <!-- /logo -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto text-center">
+         		  
+          <li class="nav-item ">
+            <a class="nav-link" href="index.php">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="service.php">Our Special Offer</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.php">Our Transparency Guarantee</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contact.php">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /main nav -->
+  </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Our Transparency Guarantee</h2>
+				<ol class="breadcrumb header-bradcrumb justify-content-center">
+					<li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Our Transparency Guarantee</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Start Team Skills
+=========================================== -->
+<section class="team-skills section-sm" id="skills">
+	<div class="container">
+		<div class="row justify-content-center">
+			<!-- section title -->
+			<div class="col-12">
+				<div class="title text-center">
+					<p><b>At SVDIGITAL,</b> we're committed to building trust through transparency and open
+						communication. Our founder, Helal Chowdhury, embodies this commitment by sharing his
+						journey and how he balances his dedication to SVDIGITAL with his professional expertise in the
+						financial sector.</p>
+				</div>
+			</div>
+			<!-- /section title -->
+		</div>
+	</div> <!-- End container -->
+</section> <!-- End section -->
+
+<section class="about-shot-info section-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 mt-20">
+				<h2 class="mb-3">Balancing Expertise and Passion</h2>
+				<p>Helal continues to contribute his expertise full-time as a financial expert, a role that enriches his
+					understanding of the business needs and challenges our clients face. Concurrently, he is
+					passionately building SVDIGITAL in his spare time, dedicating 4 hours each weekday and 16
+					hours over the weekend to this endeavor.</p>
+			</div>
+			<div class="col-lg-6 mt-4 mt-lg-0">
+				<img loading="lazy" class="img-fluid" src="images/company/company-image-3.jpg" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-shot-info section-sm bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 mt-4 mt-lg-0">
+				<img loading="lazy" class="img-fluid" src="images/company/company-image-2.jpg" alt="">
+			</div>
+			<div class="col-lg-6 mt-20">
+				<h2 class="mb-3">Accessible and Responsive</h2>
+				<p>Understanding the importance of availability in our fast-paced world, Helal ensures he is
+					accessible to address your needs and inquiries. You can expect prompt responses after 5 PM
+					on weekdays and anytime during business hours over the weekend. Moreover, Helal remains
+					connected until midnight, diligently checking emails and responding to texts as needed,
+					ensuring no query goes unanswered.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-shot-info section-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 mt-20">
+				<h2 class="mb-3">Convenient Scheduling</h2>
+				<p>Recognizing the value of face-to-face interactions, even in a digital realm, Helal hosts most
+					Zoom calls during the weekends or after hours on weekdays. This scheduling not only accommodates our clients' busy lives but also aligns with the working hours of our international
+					team. This synchronization maximizes productivity and ensures that we leverage the diverse
+					talents of our team across different time zones to deliver innovative solutions to our clients.</p>
+			</div>
+			<div class="col-lg-6 mt-4 mt-lg-0">
+				<img loading="lazy" class="img-fluid" src="images/company/scheduling.jpg" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-shot-info section-sm bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 mt-4 mt-lg-0">
+				<img loading="lazy" class="img-fluid" src="images/company/success.jpg" alt="">
+			</div>
+			<div class="col-lg-6 mt-20">
+				<h2 class="mb-3">Commitment to Your Success</h2>
+				<p>Our off-hour operations are a testament to Helal's dedication and a strategic advantage for our
+					clients. This flexibility allows us to sync with our international team during their productive hours,
+					ensuring we bring the best and most timely solutions to your business challenges.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about-shot-info section-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<p><b>At SVDIGITAL,</b> your business goals are our top priority. Our transparency guarantee is more
+					than a policy; we promise to you that we will navigate the complexities of digital solutions
+					together, with open lines of communication and a clear commitment to your success.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer" class="bg-one">
+	<div class="footer-bottom">
+		<h5>&copy; Copyright 2024. All rights reserved.</h5>
+		<h6>By SVDIGITAL</h6>
+	</div>
+</footer> <!-- end footer -->
+
+
+<!-- end Footer Area
+========================================== -->
+
+<!-- 
+    Essential Scripts
+    =====================================-->
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap4 -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="plugins/lightbox2/js/lightbox.min.js"></script>
+<!-- Owl Carousel -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Custom js -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
