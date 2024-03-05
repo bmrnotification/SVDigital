@@ -2182,3 +2182,6 @@ a:focus, a:hover {
   }
 }
 /*# sourceMappingURL=style.css.map */
+p:not(:last-child) {
+  margin-bottom: 1rem;
+}
