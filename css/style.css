@@ -378,7 +378,7 @@ a:focus, a:hover {
 }
 
 .logo img {
-  width: 55px;
+  width: 50px;
 }
 
 .single-page-header {
@@ -2184,4 +2184,20 @@ a:focus, a:hover {
 /*# sourceMappingURL=style.css.map */
 p:not(:last-child) {
   margin-bottom: 1rem;
+}
+.navbar-brand.logo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, max-content));
+  gap: 10px;
+  align-items: center;
+}
+.navbar-brand.logo p {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand.logo p {
+  color: #000;
+}
+.navbar-brand.logo p.logo-white {
+  color: #FFFFFF;
 }
