@@ -2201,3 +2201,7 @@ p:not(:last-child) {
 .navbar-brand.logo p.logo-white {
   color: #FFFFFF;
 }
+.footer-bottom a h5 {
+    color: unset;
+    margin-top: 10px;
+}
