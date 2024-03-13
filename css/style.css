@@ -2213,7 +2213,11 @@ p:not(:last-child) {
   padding-bottom: 56.25%;
   margin: 60px 0;
 }
-.home-vodeo-section iframe {
+.home-mov-vodeo-section {
+  padding-bottom: 50.25%;
+}
+.home-vodeo-section iframe,
+.home-vodeo-section video {
   position: absolute;
   top: 0;
   left: 0;
