@@ -2241,4 +2241,7 @@ p:not(:last-child) {
   left: 0;
   width: 100%;
   height: 100%;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
