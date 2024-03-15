@@ -2124,6 +2124,9 @@ a:focus, a:hover {
   }
   .author-avatar {
     margin-right: 10px;
+  }	
+  .contact-form {
+    margin-top: 35px;
   }
 }
 /*============================================================
