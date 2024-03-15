@@ -122,26 +122,7 @@ End Fixed Navigation
 
  <!--Start Contact Us
 	=========================================== -->
-<?php 
-	if (!empty($_POST['submit'])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$phone = $_POST['phone'];
-		$subject = $_POST['subject'];
-		$message = $_POST['message'];
-		$toEmail = 'exam@gmail.com';
 
-		$emailHeaders = 'Name' . $name .
-		'\r\n Email: ' . $email .
-		'\r\n phone: ' . $phone .
-		'\r\n Subject: ' . $subject .
-		'\r\n Message: ' . $message . '\r\n';
-
-		if (mail($toEmail, $name, $emailHeaders)) {
-			$notifyingMessage = 'Your Information is Received Successfully.';
-		}
-	}
-?>
  <section class="contact-us" id="contact">
  	<div class="container">
  		<div class="row justify-content-center">
@@ -158,25 +139,28 @@ End Fixed Navigation
  		<div class="row">
  			<!-- Contact Details -->
  			<div class="contact-details col-md-6 ">
- 				<h3 class="mb-3">Contact Details</h3>
- 				<ul class="contact-short-info mt-4">
- 					<li class="mb-3">
- 						<i class="tf-ion-ios-home"></i>
- 						<span><b>Location:</b> Silicon Valley, California</span>
- 					</li>
- 					<li class="mb-3">
- 						<i class="tf-ion-android-phone-portrait"></i>
- 						<span><b>Phone:</b> <a href="tel:1-408-478-7565">1-408-478-7565</a></span>
- 					</li>
- 					<li class="mb-3 d-none">
- 						<i class="tf-ion-android-globe"></i>
- 						<span>Fax: +880-31-000-000</span>
- 					</li>
- 					<li>
- 						<i class="tf-ion-android-mail"></i>
- 						<span><b>Email:</b> <a href="mailto:svdigitaldev@gmail.com">svdigitaldev@gmail.com</a></span>
- 					</li>
- 				</ul>
+				<div>
+					<h3 class="mb-3">Contact Details</h3>
+					<ul class="contact-short-info mt-4">
+						<li class="mb-3">
+							<i class="tf-ion-ios-home"></i>
+							<span><b>Location:</b> Silicon Valley, California</span>
+						</li>
+						<li class="mb-3">
+							<i class="tf-ion-android-phone-portrait"></i>
+							<span><b>Phone:</b> <a href="tel:1-408-478-7565">1-408-478-7565</a></span>
+						</li>
+						<li class="mb-3 d-none">
+							<i class="tf-ion-android-globe"></i>
+							<span>Fax: +880-31-000-000</span>
+						</li>
+						<li>
+							<i class="tf-ion-android-mail"></i>
+							<span><b>Email:</b> <a href="mailto:svdigitaldev@gmail.com">svdigitaldev@gmail.com</a></span>
+						</li>
+					</ul>
+				</div>
+
  				<!-- Footer Social Links -->
  				<div class="social-icon d-none">
  					<ul>
@@ -192,36 +176,7 @@ End Fixed Navigation
 
  			<!-- Contact Form -->
  			<div class="contact-form col-md-6 ">
- 				<form id="contact-form" method="post" role="form">
- 					<div class="form-group mb-4">
- 						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
- 					</div>
-
- 					<div class="form-group mb-4">
- 						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
- 					</div>
-
-					 <div class="form-group mb-4">
- 						<input type="tel" placeholder="Your Phone Number" class="form-control" name="phone" id="phone" required>
- 					</div>
-
- 					<div class="form-group mb-4">
- 						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
- 					</div>
-
- 					<div class="form-group mb-4">
- 						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
- 					</div>
- 					<div id="cf-submit">
- 						<input type="submit" name="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-						<?php if (!empty($notifyingMessage)) { ?>
-							<div class="success text-success text-center mt-2">
-								<strong><?= $notifyingMessage; ?></strong>
-							</div>
-						<?php } ?>
- 					</div>
-
- 				</form>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9jF-9Y3PLMzTXVcxd647k9szIN7JbFqyNmms-eskTkCNIyg/viewform?embedded=true" width="640" height="1535" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
  			</div>
  			<!-- ./End Contact Form -->
 
